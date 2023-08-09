@@ -26,7 +26,7 @@ The burn function allows users to burn (destroy) their own tokens. The function 
 The mint function allows the contract owner to mint (create) new tokens and assign them to a specific address (_to). The function takes _to (the recipient's address) and _value (the amount of tokens to mint) as input parameters. The recipient's balance is increased by _value. The total token supply is increased by _value. The Transfer event is emitted with address(0) as the from parameter, indicating that the tokens are minted into existence.
 
 needs
-make sure u created a locally hardhat network
+make sure u created a locally hardhat network---metamask
 
 usage
 Make sure you have Solidity ^0.8.0 installed. Compile and deploy the MyToken contract to a supported local hardhat network connected to metamask. Interact with the deployed contract by calling the available functions and providing the required parameters.
